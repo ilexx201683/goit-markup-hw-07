@@ -1,0 +1,42 @@
+.section-features {
+  padding: 94px 0;
+}
+
+.features-list {
+  display: flex;
+  .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+}
+
+.features-item {
+  width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+    min-height: 251px;
+  }
+}
+
+.features-background {
+  display: flex;
+  height: 120px;
+  background-color: var(--third-backgroud-color);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
