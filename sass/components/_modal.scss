@@ -179,8 +179,8 @@
   fill: #ffffff;
 }
 
-.modal-form-license:checked + .modal-form-license-text {
-  .license-agreement-item {
+.modal-form-license {
+  &:checked + .modal-form-license-text .license-agreement-item {
     background-color: var(--accent-color);
     border: none;
   }
