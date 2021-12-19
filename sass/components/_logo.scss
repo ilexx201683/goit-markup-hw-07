@@ -6,13 +6,13 @@
   letter-spacing: 0.03em;
   color: var(--logo-text-color);
   display: block;
-}
-
-.logo__header {
-  color: var(--logo-text-color-first);
   margin-right: 93px;
 }
 
-.logo__footer {
+.logo__text-change {
+  color: var(--logo-text-color-first);
+}
+
+.logo__text-change--color-white {
   color: var(--logo-text-color-second);
 }
